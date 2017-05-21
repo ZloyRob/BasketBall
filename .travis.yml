@@ -2,6 +2,6 @@ language: php
 php:
   - 7.0
 before_script:
-  - mkdir .reports
+ - composer install --dev
 script:
   - php vendor/bin/phpunit
