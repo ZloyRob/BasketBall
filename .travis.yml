@@ -1,2 +1,5 @@
 language: php
-php: - 7.0
+before_script:
+  - mkdir .reports
+script:
+  - php vendor/bin/phpunit --configuration ./phpunit.xml.dist --coverage-clover=.reports/clover.xml --coverage-xml=.reports/coverage
