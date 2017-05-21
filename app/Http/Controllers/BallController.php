@@ -69,7 +69,7 @@ static  function getAnswerC($masBasket, $masUser){
           $maxRand=999;
         }
     $arrBasket = BallController::getBaskets($numBas, $maxRand);
-    $arrUser = BallController::getMass(100, $maxRand);
+    $arrUser = BallController::getMass(rand(1, 100), $maxRand);
     $b=BallController::getAnswerB($arrBasket, $arrUser);
     $c=BallController::getAnswerC($arrBasket, $arrUser);
       return view('index')->with([
