@@ -1,0 +1,25 @@
+.example {
+        display: inline-block;
+        width:40px;
+        height:40px;
+        background-image:url("../images/Ball.png");
+        background-size: 40px,40px;
+        text-align: center;
+        padding-top: 8px;
+        color:white;
+    }
+.inviz{
+  display: none;
+}
+.vis{
+  display: initial;
+}
+.inputWight{
+  width: 200px;
+  display: inline-block
+}
+.vari{
+  display: inline-block;
+  height: auto;
+ margin-left: 20px;
+}
