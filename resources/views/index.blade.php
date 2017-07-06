@@ -8,7 +8,7 @@
  <input id="numBaskets" name="numBaskets" type="number" min="0"  class="form-control inputWight" placeholder="Число корзин" >
 <input id="numRand" name="numRand" type="number" min="100" class="form-control inputWight" placeholder="Число для рандома">
 
-<button type="submit"  id="test" class="btn vari" >ИЗМЕНИТЬ/Обновить</button>
+<button type="submit"  id="test" class="btn vari" >ИЗМЕНИТЬ/ОБНОВИТЬ</button>
 @endsection
 @section('content')
 <div id="testim">
